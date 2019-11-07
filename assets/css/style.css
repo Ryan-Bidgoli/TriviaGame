@@ -11,3 +11,24 @@ body {
     line-height: 24px;
     background: url("../images/background.jpg");
 }
+
+h1 {
+
+    margin: 35px 0 0 0;
+    text-align: center;
+    font-size: 60px;
+    line-height: 69px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #000ecf;
+}
+
+
+.container {
+
+    text-align: center;
+    margin: 0 15%;
+    padding: 30px;
+    background: #fffd91
+}
+
+
