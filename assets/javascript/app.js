@@ -94,7 +94,9 @@ $("#start").on("click", function() {
 	$("#submit").html("<button id='done' class='btn'>Done</button>");
 	$("#done").on("click", function() {
 
-     
+        keepingScore();
+ 
+        displayResults();
         
     });
 
