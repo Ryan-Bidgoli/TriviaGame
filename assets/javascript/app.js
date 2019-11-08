@@ -36,5 +36,7 @@ var questions = [{
 $("#start").on("click", function() {
 
     $(this).hide();
+    
+    $("#time").html("<h2>Time Remaining: 30 Seconds</h2>" + "<br>");
 
 });
