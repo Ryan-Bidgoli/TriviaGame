@@ -101,7 +101,8 @@ $("#start").on("click", function() {
     });
 	
 function run() {
-
+ clearInterval(intervalId);
+   
 }
 	
 });
