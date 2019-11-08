@@ -35,4 +35,6 @@ var questions = [{
 }];
 $("#start").on("click", function() {
 
-    );
+    $(this).hide();
+
+});
