@@ -126,3 +126,7 @@ function stop() {
 
     clearInterval(intervalId);
 }
+
+function displayResults() {
+
+}
