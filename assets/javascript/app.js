@@ -91,4 +91,11 @@ $("#start").on("click", function() {
         + "<input type='radio' name='answer7' value='2'>" + "<label>" + questions[6].answerList[2] + "</label>"
         + "<input type='radio' name='answer7' value='3'>" + "<label>" + questions[6].answerList[3] + "</label><br><br>"
     );
+	$("#submit").html("<button id='done' class='btn'>Done</button>");
+	$("#done").on("click", function() {
+
+     
+        
+    });
+
 });
