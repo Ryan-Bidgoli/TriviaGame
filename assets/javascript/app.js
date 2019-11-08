@@ -128,5 +128,5 @@ function stop() {
 }
 
 function displayResults() {
-
+ $("#time").hide();
 }
