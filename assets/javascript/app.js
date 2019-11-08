@@ -174,4 +174,87 @@ function keepingScore() {
         incorrectAnswers++;
     }
 
+    
+    if (userAnswer2 === undefined) {
+
+        unanswered++;
+    }
+    else if (userAnswer2 == questions[1].answer) {
+
+        correctAnswers++;
+    }
+    else {
+
+        incorrectAnswers++;
+    }
+
+    
+    if (userAnswer3 === undefined) {
+
+        unanswered++;
+    }
+    else if (userAnswer3 == questions[2].answer) {
+
+        correctAnswers++;
+    }
+    else {
+
+        incorrectAnswers++;
+    }
+
+   
+    if (userAnswer4 === undefined) {
+
+        unanswered++;
+    }
+    else if (userAnswer4 == questions[3].answer) {
+
+        correctAnswers++;
+    }
+    else {
+
+        incorrectAnswers++;
+    }
+
+    
+    if (userAnswer5 === undefined) {
+
+        unanswered++;
+    }
+    else if (userAnswer5 == questions[4].answer) {
+
+        correctAnswers++;
+    }
+    else {
+
+        incorrectAnswers++;
+    }
+
+    
+    if (userAnswer6 === undefined) {
+
+        unanswered++;
+    }
+    else if (userAnswer6 == questions[5].answer) {
+
+        correctAnswers++;
+    }
+    else {
+
+        incorrectAnswers++;
+    }
+
+    
+    if (userAnswer7 === undefined) {
+
+        unanswered++;
+    }
+    else if (userAnswer7 == questions[6].answer) {
+
+        correctAnswers++;
+    }
+    else {
+
+        incorrectAnswers++;
+    }  
 }
