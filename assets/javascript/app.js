@@ -152,5 +152,6 @@ function displayResults() {
 
 function keepingScore() {
 
- 
+    var userAnswer1 = $("input[name='answer1']:checked").val();
+   
 }
