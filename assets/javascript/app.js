@@ -33,3 +33,6 @@ var questions = [{
     answerList: ["Tangerine", "Blueberry", "Key Lime", "Watermelon"],
     answer: 3
 }];
+$("#start").on("click", function() {
+
+    );
