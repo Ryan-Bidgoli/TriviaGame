@@ -97,7 +97,11 @@ $("#start").on("click", function() {
         keepingScore();
  
         displayResults();
-        
+	});
     });
+	
+function run() {
 
+}
+	
 });
