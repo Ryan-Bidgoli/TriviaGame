@@ -144,5 +144,13 @@ function displayResults() {
  $("#question7").hide();
  $("#answer7").hide();
  $("#submit").hide();
+ $("#resultsMessage").html("<h3>All Done!</h3>");
+ $("#correct").html("Correct Answers: " + correctAnswers);
+ $("#incorrect").html("Incorrect Answers: " + incorrectAnswers);
+ $("#unanswered").html("Unanswered: " + unanswered);
+}
 
+function keepingScore() {
+
+ 
 }
