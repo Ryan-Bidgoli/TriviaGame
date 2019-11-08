@@ -102,7 +102,7 @@ $("#start").on("click", function() {
 	
 function run() {
  clearInterval(intervalId);
-   
+ intervalId = setInterval(decrement, 1000);
 }
 	
 });
