@@ -153,5 +153,11 @@ function displayResults() {
 function keepingScore() {
 
     var userAnswer1 = $("input[name='answer1']:checked").val();
-   
+    var userAnswer2 = $("input[name='answer2']:checked").val();
+    var userAnswer3 = $("input[name='answer3']:checked").val();
+    var userAnswer4 = $("input[name='answer4']:checked").val();
+    var userAnswer5 = $("input[name='answer5']:checked").val();
+    var userAnswer6 = $("input[name='answer6']:checked").val();
+    var userAnswer7 = $("input[name='answer7']:checked").val();
+
 }
