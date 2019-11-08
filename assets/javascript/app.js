@@ -38,5 +38,13 @@ $("#start").on("click", function() {
     $(this).hide();
     
     $("#time").html("<h2>Time Remaining: 30 Seconds</h2>" + "<br>");
+	
+    run();
 
+    $("#question1").html("<h3>" + questions[0].question + "</h3>");
+    $("#answer1").html("<input type='radio' name='answer1' value='0'>" + "<label>" + questions[0].answerList[0] + "</label>"
+        + "<input type='radio' name='answer1' value='1'>" + "<label>" + questions[0].answerList[1] + "</label>"
+        + "<input type='radio' name='answer1' value='2'>" + "<label>" + questions[0].answerList[2] + "</label>"
+        + "<input type='radio' name='answer1' value='3'>" + "<label>" + questions[0].answerList[3] + "</label><br><br>"
+    );
 });
