@@ -104,5 +104,13 @@ function run() {
  clearInterval(intervalId);
  intervalId = setInterval(decrement, 1000);
 }
+function decrement() {
+
+    number--;
 	
-});
+    $("#time").html("<h2>Time Remaining: " + number + " Seconds</h2>" + "<br>");
+
+  
+}
+
+}
