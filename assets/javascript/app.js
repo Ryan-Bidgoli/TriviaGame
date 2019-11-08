@@ -129,4 +129,6 @@ function stop() {
 
 function displayResults() {
  $("#time").hide();
+ $("#question1").hide();
+ $("#answer1").hide();	
 }
