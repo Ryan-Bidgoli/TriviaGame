@@ -159,5 +159,19 @@ function keepingScore() {
     var userAnswer5 = $("input[name='answer5']:checked").val();
     var userAnswer6 = $("input[name='answer6']:checked").val();
     var userAnswer7 = $("input[name='answer7']:checked").val();
+    
+    
+    if (userAnswer1 === undefined) {
+
+        unanswered++;
+    }
+    else if (userAnswer1 == questions[0].answer) {
+
+        correctAnswers++;
+    }
+    else {
+
+        incorrectAnswers++;
+    }
 
 }
