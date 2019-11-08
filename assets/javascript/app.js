@@ -109,8 +109,17 @@ function decrement() {
     number--;
 	
     $("#time").html("<h2>Time Remaining: " + number + " Seconds</h2>" + "<br>");
+	
+	if (number === 0) {
 
+         
+        stop();
+
+        keepingScore();
+        displayResults();
+
+    }
   
 }
 
-}
+ 
