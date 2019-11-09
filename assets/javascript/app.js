@@ -1,4 +1,4 @@
-var time;
+var number = 30;
 var intervalId;
 var correctAnswers = 0;
 var incorrectAnswers = 0;
